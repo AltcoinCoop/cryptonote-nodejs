@@ -28,15 +28,8 @@
                 "src",
                 "<!(node -e \"require('nan')\")"
             ],
-            # "link_settings": {
-            #     "libraries": [
-            #         "-lboost_system",
-            #         "-lboost_date_time",
-            #     ]
-            # },
             "cflags_cc!": [ "-fno-exceptions" ],
             "cflags_cc": [
-                  "-std=libc++",
                   "-fexceptions"
             ],
         }
