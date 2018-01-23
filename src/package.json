@@ -1,0 +1,23 @@
+{
+  "name": "cryptonote-nodejs",
+  "version": "0.0.1",
+  "description": "CryptoNote Binding For NodeJS 8+",
+  "main": "index.js",
+  "scripts": {
+    "start": "node-gyp configure build && node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spilafas/cryptonote-nodejs.git"
+  },
+  "engines": {
+    "node": ">=8.4.0"
+  },
+  "author": "spilafas",
+  "license": "MIT",
+  "homepage": "https://github.com/spilafas/cryptonote-nodejs/",
+  "dependencies": {
+    "nan": "^2.8.0"
+  }
+}
